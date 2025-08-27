@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Is anyone there?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "How can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Have a great day!",
+                "See you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are your hours?",
+                "When are you open?"
+            ],
+            "responses": [
+                "We're open every day from 9am to 9pm."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Can I pay with PayPal?"
+            ],
+            "responses": [
+                "We accept Visa, MasterCard and PayPal."
+            ]
+        }
+    ]
+}
